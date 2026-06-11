@@ -99,6 +99,8 @@ Permutation importance was used to interpret the XGBoost model.
 
 The most important feature was `farea`, followed by features such as `district`, `case_t`, and metro-related variables. This is reasonable because the target variable is total transaction price, and building area is directly related to transaction value.
 
+Since the target is total transaction price, the dominance of building area is expected; this project should be interpreted as total price prediction rather than unit-price forecasting.
+
 ------------------------------------------------------------------------
 
 ## 9. File Structure
