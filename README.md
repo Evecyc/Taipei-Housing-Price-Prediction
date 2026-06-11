@@ -48,7 +48,7 @@ Main steps:
 5.  Sanity check
 6.  Feature importance analysis
 
-All preprocessing steps that require fitting, such as imputation, encoding, scaling, and hyperparameter tuning, are performed within the training workflow.
+All fitted preprocessing steps, such as imputation, encoding, and scaling, are included inside machine learning pipelines. Hyperparameter tuning is performed using cross-validation within the training workflow.
 
 ------------------------------------------------------------------------
 
